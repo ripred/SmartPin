@@ -26,7 +26,7 @@
  *    SmartPin button(2, INPUT_PULLUP);
  *    SmartPin led(3, OUTPUT);
  * 
- *    while (true) {
+ *    void loop() {
  *        led = button;
  *        ...
  *    }
@@ -38,7 +38,7 @@
  *    SmartPin potentiometer(A0, INPUT, analogWrite, analogRead);
  *    SmartPin led(3, OUTPUT);
  * 
- *    while (true) {
+ *    void loop() {
  *        led = potentiometer / 4;
  *        ...
  *    }
