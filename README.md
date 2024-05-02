@@ -69,8 +69,6 @@ inline int invert(int value) { return !value; }
 
 void setup()
 {
-    auto output = [](SmartPin & sp, int value) { sp = value; delay(4); };
-
     // example of simple integer assignment
     for (int i=0; i < 4; i++) {
         for (int pwm=0; pwm < 256; pwm += 4) {
@@ -83,6 +81,7 @@ void setup()
         }
     }
 
+    // change the led1_pin to be a digital output now
     led1_pin.out_func = digitalWrite;
 }
 
