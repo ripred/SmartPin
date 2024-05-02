@@ -60,7 +60,7 @@ enum MagicNumbers {
 };  // enum MagicNumbers
 
 // a push button that drives an LED
-SmartPin  const button_pin(BUTTON_PIN, INPUT_PULLUP);
+SmartPin  button_pin(BUTTON_PIN, INPUT_PULLUP);
 SmartPin  led1_pin(LED1_PIN, OUTPUT);
 
 // a potentiometer that drives the PWM brightness of an LED
