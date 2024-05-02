@@ -10,7 +10,7 @@ SmartPin	KEYWORD1
 ########################################################
 # Methods, Functions, and Globals (KEYWORD2)
 ########################################################
-Smooth	KEYWORD2
+SmartPin	KEYWORD2
 
 ########################################################
 # Constants (LITERAL1)
