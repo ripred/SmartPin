@@ -84,6 +84,7 @@ void setup()
 
 void loop()
 {
+    // using the pins is ridiculously easy 😎:
     led1_pin = !button_pin;   // we invert the HIGH/LOW value since the button is active-low
     led2_pin = pot_pin / 4;   // set the led brightness relative to the potentiometer value
 }
