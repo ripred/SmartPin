@@ -65,8 +65,6 @@ SmartPin  led1_pin(LED1_PIN, OUTPUT, analogWrite);
 SmartPin  pot_pin(POT_PIN, INPUT, analogWrite, analogRead);
 SmartPin  led2_pin(LED2_PIN, OUTPUT, analogWrite);
 
-inline int invert(int value) { return !value; }
-
 void setup()
 {
     // example LED fade in/out using simple integer assignment
