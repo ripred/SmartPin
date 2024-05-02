@@ -38,7 +38,7 @@
  * example 2
  * 
  *    SmartPin potentiometer(A0, INPUT, analogWrite, analogRead);
- *    SmartPin led(3, OUTPUT);
+ *    SmartPin led(3, OUTPUT, analogWrite);
  * 
  *    void loop() {
  *        led = potentiometer / 4;
