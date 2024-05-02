@@ -61,7 +61,7 @@ enum MagicNumbers {
 SmartPin  const button_pin(BUTTON_PIN, INPUT_PULLUP);
 SmartPin  led1_pin(LED1_PIN, OUTPUT, analogWrite);
 
-// a potentiometer that drives the brightness of an LED
+// a potentiometer that drives the PWM brightness of an LED
 SmartPin  pot_pin(POT_PIN, INPUT, analogWrite, analogRead);
 SmartPin  led2_pin(LED2_PIN, OUTPUT, analogWrite);
 
