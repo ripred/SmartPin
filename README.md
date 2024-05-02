@@ -69,7 +69,7 @@ inline int invert(int value) { return !value; }
 
 void setup()
 {
-    // example of simple integer assignment
+    // example LED fade in/out using simple integer assignment
     for (int i=0; i < 4; i++) {
         for (int pwm=0; pwm < 256; pwm += 4) {
             led1_pin = pwm;
