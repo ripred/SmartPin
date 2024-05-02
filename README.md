@@ -59,7 +59,7 @@ enum MagicNumbers {
 
 // a push button that drives an LED
 SmartPin  const button_pin(BUTTON_PIN, INPUT_PULLUP);
-SmartPin  led1_pin(LED1_PIN, OUTPUT, analogWrite);
+SmartPin  led1_pin(LED1_PIN, OUTPUT);
 
 // a potentiometer that drives the PWM brightness of an LED
 SmartPin  pot_pin(POT_PIN, INPUT, analogWrite, analogRead);
@@ -70,17 +70,14 @@ void setup()
     // example LED fade in/out using simple integer assignment
     for (int i=0; i < 4; i++) {
         for (int pwm=0; pwm < 256; pwm += 4) {
-            led1_pin = pwm;
+            led2_pin = pwm;
             delay(4);
         }
         for (int pwm=255; pwm >= 0; pwm -= 4) {
-            led1_pin = pwm;
+            led2_pin = pwm;
             delay(4);
         }
     }
-
-    // change the led1_pin to be a digital output now
-    led1_pin.out_func = digitalWrite;
 }
 
 void loop()
