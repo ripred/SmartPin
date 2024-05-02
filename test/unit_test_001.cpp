@@ -49,8 +49,10 @@ unittest_teardown()
 
 unittest(test_constructor)
 {
-  SmartPin pin3(3, OUTPUT);
-  SmartPin pin3(5, OUTPUT, analogWrite, analogRead);
+  SmartPin pin2(2, INPUT);
+  SmartPin pin5(5, OUTPUT, analogWrite, analogRead);
+
+  pin5 = pin2;
 
   // assertEqual(42, sm.get_window());
   // assertEqual(0, sm.get_count());
