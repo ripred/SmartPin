@@ -29,7 +29,7 @@
  *    SmartPin led(3, OUTPUT);
  * 
  *    void loop() {
- *        led = button;
+ *        led = !button;
  *        ...
  *    }
  * 
