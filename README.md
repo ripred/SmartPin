@@ -13,5 +13,5 @@
 
 ```cpp
 #include <Arduino.h>
-}
+
 ```
