@@ -62,7 +62,7 @@ SmartPin  const button_pin(BUTTON_PIN, INPUT_PULLUP);
 SmartPin  led1_pin(LED1_PIN, OUTPUT, analogWrite);
 
 // a potentiometer that drives the brightness of an LED
-SmartPin  const pot_pin(POT_PIN, INPUT, analogWrite, analogRead);
+SmartPin  pot_pin(POT_PIN, INPUT, analogWrite, analogRead);
 SmartPin  led2_pin(LED2_PIN, OUTPUT, analogWrite);
 
 inline int invert(int value) { return !value; }
@@ -73,9 +73,14 @@ void setup()
 
     // example of simple integer assignment
     for (int i=0; i < 4; i++) {
-      
-        for (int pwm=0; pwm < 256; pwm += 4) output(led1_pin, pwm);
-        for (int pwm=255; pwm >= 0; pwm -= 4) output(led1_pin, pwm);
+        for (int pwm=0; pwm < 256; pwm += 4) {
+            led1_pin = pwm;
+            delay(4);
+        }
+        for (int pwm=255; pwm >= 0; pwm -= 4) {
+            led1_pin = pwm;
+            delay(4);
+        }
     }
 
     led1_pin.out_func = digitalWrite;
