@@ -54,8 +54,8 @@ enum MagicNumbers {
     // project-specific pin usage; Change as needed
     BUTTON_PIN =  2,        // a digital input pin wth a push button
     POT_PIN    = A0,        // an analog input pin with a potentiometer
-    LED1_PIN   =  3,        // a digital output to follow the button
-    LED2_PIN   =  5,        // a pwm output to follow the potentiometer
+    LED1_PIN   =  3,        // a digital output pin to follow the button
+    LED2_PIN   =  5,        // a pwm output pin to follow the potentiometer value
 
 };  // enum MagicNumbers
 
