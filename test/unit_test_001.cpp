@@ -49,7 +49,7 @@ unittest_teardown()
 
 unittest(test_constructor)
 {
-  SmaprtPin pin(42);
+  SmartPin pin(42);
 
   // assertEqual(42, sm.get_window());
   // assertEqual(0, sm.get_count());
