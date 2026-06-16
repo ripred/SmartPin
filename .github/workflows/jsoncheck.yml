@@ -2,9 +2,8 @@ name: JSON check
 
 on:
   push:
-    paths:
-      - '**.json'
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,4 +17,3 @@ jobs:
         uses: limitusus/json-syntax-check@v1
         with:
           pattern: "\\.json$"
-
