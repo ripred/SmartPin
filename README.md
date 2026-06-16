@@ -1,11 +1,10 @@
 
-[![Arduino CI](https://github.com/ripred/SmartPin/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![Arduino CI](https://github.com/ripred/SmartPin/actions/workflows/arduino_test_runner.yml/badge.svg)](https://github.com/ripred/SmartPin/actions/workflows/arduino_test_runner.yml)
 [![Arduino-lint](https://github.com/ripred/SmartPin/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/SmartPin/actions/workflows/arduino-lint.yml)
-![code size:](https://img.shields.io/github/languages/code-size/ripred/SmartPin)
-[![GitHub release](https://img.shields.io/github/release/ripred/SmartPin.svg?maxAge=3600)](https://github.com/ripred/SmartPin/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ripred/SmartPin/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/ripred/SmartPin.svg?style=flat-square&colorB=4183c4)](https://github.com/ripred/SmartPin)
-[![Forks](https://img.shields.io/github/forks/ripred/SmartPin.svg?style=flat-square&colorB=4183c4)](https://github.com/ripred/SmartPin)
+[![GitHub release](https://flat.badgen.net/github/release/ripred/SmartPin)](https://github.com/ripred/SmartPin/releases/latest)
+[![License: MIT](https://flat.badgen.net/github/license/ripred/SmartPin)](https://github.com/ripred/SmartPin/blob/main/LICENSE)
+[![Stars](https://flat.badgen.net/github/stars/ripred/SmartPin)](https://github.com/ripred/SmartPin/stargazers)
+[![Forks](https://flat.badgen.net/github/forks/ripred/SmartPin)](https://github.com/ripred/SmartPin/network/members)
 
 # Arduino SmartPin Library
 
