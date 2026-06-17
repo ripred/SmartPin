@@ -6,6 +6,9 @@
 [![Stars](https://flat.badgen.net/github/stars/ripred/SmartPin)](https://github.com/ripred/SmartPin/stargazers)
 [![Forks](https://flat.badgen.net/github/forks/ripred/SmartPin)](https://github.com/ripred/SmartPin/network/members)
 
+[![JSON check](https://github.com/ripred/SmartPin/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/SmartPin/actions/workflows/jsoncheck.yml)
+[![Arduino Library Manager](https://www.ardu-badge.com/badge/SmartPin.svg)](https://www.ardu-badge.com/SmartPin)
+
 # Arduino SmartPin Library
 
 
